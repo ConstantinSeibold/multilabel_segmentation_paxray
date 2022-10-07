@@ -34,7 +34,7 @@ Command lines for training a UNet with a ResNet backbone are stored in the run_u
 </tr>
 <tr>
 <td>UNet (50%)</td>
-<td>-</td>
+<td>57.07</td>
 <td><a href="https://github.com/ConstantinSeibold/multilabel_segmentation_paxray">code</a></td>
 <td><a href="https://drive.google.com/drive/folders/1JjWv_Ips_8CKbREk68JY-YMpu_lXu5Sa?usp=sharing">weights</a></td>
 </tr>

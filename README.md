@@ -58,11 +58,11 @@ Command lines for training a UNet with a ResNet backbone are stored in the run_i
 
 The ![notebook](https://github.com/ConstantinSeibold/multilabel_segmentation_paxray/blob/main/VisualizeLabels.ipynb) provides a script to visualize the anatomy labels of the dataset as well as predictions of a network. You would have to define the paths as below shows below:
 
-<img src="https://raw.githubusercontent.com/ConstantinSeibold/multilabel_segmentation_paxray/main/images/define_paths.png?token=GHSAT0AAAAAABWEYES2PLAIJTUBEOBYAAA6Y2AVP3Q" width=80% height=auto>
+<img src="https://github.com/ConstantinSeibold/multilabel_segmentation_paxray/blob/main/images/define_paths.png" width=80% height=auto>
 
 You can then call the function ```visualize_certain_labels()``` as shown below by defining a list of desired labels as well as the image and numpy paths:
 
-<img src="https://raw.githubusercontent.com/ConstantinSeibold/multilabel_segmentation_paxray/main/images/labels.png?token=GHSAT0AAAAAABWEYES3NVMLEUZI6YW5VUX2Y2AVQCQ" width=80% height=auto>
+<img src="https://github.com/ConstantinSeibold/multilabel_segmentation_paxray/blob/main/images/labels.png" width=80% height=auto>
 
 
 ## Citation

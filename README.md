@@ -1,5 +1,7 @@
 # Multi-Label Segmentation for the Projected Anatomy X-Ray (PAXRay) dataset
 
+\[[```arxiv```](https://arxiv.org/abs/2210.03416)\]\[[```supplementary```](https://github.com/ConstantinSeibold/constantinseibold.github.io/blob/master/pdfs/0058_Supplementary_Camera_Ready.pdf)\]\[[```project```](https://constantinseibold.github.io/paxray/)\]
+
 ## Dataset Access
 
 <p>The dataset is available by clicking the folder:

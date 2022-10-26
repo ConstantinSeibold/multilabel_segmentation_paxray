@@ -205,6 +205,7 @@ class Base_Logger():
             print(' New Best Mean {:4f} == > Saving'.format(eval_metrics['metric_target']))
             self.best['best'] = eval_metrics['metric_target']
             self.best['epoch'] = epoch
+            os.makedirs(os.path.join(self.args.checkpoints_dir, self.args.name),exist_ok=True)
             t = open(os.path.join(self.args.checkpoints_dir, self.args.name,'results.txt'),"a+")
             t.write("Value {} at Epoch {}\n".format(self.best['best'] , self.best['epoch']))
 

@@ -182,7 +182,7 @@ class Base_Logger():
         """
             store metric results as csv
         """
-        lll = [self.args.exp_tag,self.args.name] + [str(metric_dict[i]) for i in metric_dict.keys()]
+        lll = [self.args.exp_tag,self.args.name] + [str(float(metric_dict[i])) for i in metric_dict.keys()]
         os.makedirs(os.path.join(self.args.exp_dir, self.args.exp_tag,'results', self.args.name ), exist_ok=True)
 
         file = os.path.join(self.args.exp_dir, self.args.exp_tag,'results', self.args.name , mode+'.csv')
@@ -190,7 +190,7 @@ class Base_Logger():
             with open(file,'a') as  f:
                 f.write('\t'.join(lll)+'\n')
         else:
-            out_list = ['Experiment_Tag', 'Experiment_Name', 'Used_Network']
+            out_list = ['Experiment_Tag', 'Experiment_Name']
             key_list =list(metric_dict.keys())
             out_list +=  [classes[i]+'_'+ key_list[i] if i < len(classes) else key_list[i] for i in range(len(key_list))]
             with open(file,'w+') as  f:
